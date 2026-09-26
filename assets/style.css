@@ -1,0 +1,19 @@
+/* 作者：iluoye8  网站：http://m.ksks63.com/ */
+*{box-sizing:border-box}body{margin:0;font:14px/1.6 "Microsoft YaHei",Arial,sans-serif;background:#f4f5f7;color:#222}
+a{color:#e50914;text-decoration:none}.wrap{max-width:1100px;margin:0 auto;padding:0 15px}
+header{background:#141414;color:#fff}header .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:12px 15px}
+header a{color:#fff;margin-right:14px}header a.logo{font-size:20px;font-weight:bold;color:#e50914}
+form.search input[type=text]{padding:6px 10px;border:0;border-radius:3px;width:180px}
+button,.btn{background:#e50914;color:#fff !important;border:0;padding:6px 14px;border-radius:3px;cursor:pointer;display:inline-block;font-size:14px}
+.btn.gray{background:#777}
+.cats{margin:15px 0}.cats a{display:inline-block;padding:3px 12px;margin:0 6px 6px 0;background:#fff;border-radius:14px}.cats a.on{background:#e50914;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:15px}
+.card{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 1px 3px #0002;color:#222}.card img{width:100%;height:210px;object-fit:cover;background:#ddd;display:block}
+.card h3{margin:0;padding:8px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pager{text-align:center;margin:20px 0}.pager a,.pager span{display:inline-block;padding:4px 11px;margin:2px;background:#fff;border-radius:3px}.pager span{background:#e50914;color:#fff}
+.box{background:#fff;padding:20px;border-radius:4px;margin:15px 0}.detail{display:flex;gap:20px;flex-wrap:wrap}.detail img{width:240px;max-width:100%;border-radius:4px}.detail .info{flex:1;min-width:240px}
+video,iframe.player{width:100%;aspect-ratio:16/9;background:#000;border:0}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+.form label{display:block;margin:10px 0 3px;font-weight:bold}.form input[type=text],.form input[type=password],.form input[type=date],.form select,.form textarea{width:100%;padding:8px;border:1px solid #ccc;border-radius:3px}
+.msg{padding:8px 12px;border-radius:3px;margin:10px 0}.err{background:#fde8e8;color:#b00}.ok{background:#e6f7e6;color:#060}
+footer{text-align:center;color:#888;padding:25px 0;font-size:13px}footer a{color:#888}
