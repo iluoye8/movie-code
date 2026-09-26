@@ -1,0 +1,19 @@
+<!--
+作者：iluoye8
+网站：http://m.ksks63.com/
+-->
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title><?= e($title) ?> - <?= e(SITE_NAME) ?></title>
+<link rel="stylesheet" href="<?= $base ?>assets/style.css">
+</head><body>
+<header><div class="wrap">
+<a class="logo" href="<?= $base ?>index.php"><?= e(SITE_NAME) ?></a>
+<?php if (!empty($isAdmin)): ?>
+<nav><a href="index.php">电影管理</a><a href="category.php">分类管理</a><a href="../index.php" target="_blank">前台</a><a href="logout.php">退出</a></nav>
+<?php else: ?>
+<form class="search" action="<?= $base ?>index.php" method="get"><input type="text" name="q" value="<?= e($_GET['q'] ?? '') ?>" placeholder="搜索电影/演员"> <button>搜索</button></form>
+<?php endif; ?>
+</div></header>
+<div class="wrap">
